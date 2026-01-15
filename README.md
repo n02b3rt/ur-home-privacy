@@ -2,7 +2,7 @@
 
 Official privacy policy for the UR Home Android application.
 
-**Live URL:** https://n02b3rt.github.io/ur-home-privacy/
+**Live URL:** https://ur-home-privacy.vercel.app/
 
 ## About UR Home
 
