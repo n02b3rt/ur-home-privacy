@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UR Home - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+        .lang-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin-left: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s;
+        }
+        .lang-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        .lang-btn.active {
+            background: #764ba2;
+            box-shadow: 0 4px 12px rgba(118, 75, 162, 0.4);
+        }
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        h2 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background: #f0f4ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-selector">
+            <button class="lang-btn active" onclick="switchLang('en')">English</button>
+            <button class="lang-btn" onclick="switchLang('pl')">Polski</button>
+            <button class="lang-btn" onclick="switchLang('zh')">中文</button>
+        </div>
+        <!-- ENGLISH VERSION -->
+        <div id="content-en" class="content active">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: January 2026</p>
+            <h2>1. Introduction</h2>
+            <p>UR Home ("we", "our", or "us") operates as a strictly local smart home control application. We respect
+                your privacy and are committed to protecting it.</p>
+            <div class="highlight">
+                <strong>Key Point:</strong> UR Home does NOT collect, store, or transmit any personal data to external
+                servers. Everything stays on your device.
+            </div>
+            <h2>2. Data Collection</h2>
+            <p>We do NOT collect, store, or transmit any personal data to external servers or third parties. All
+                operational data (device names, groups, settings) is stored locally on your device using Android's
+                SharedPreferences and SQLite databases.</p>
+            <h2>3. Permissions Usage</h2>
+            <p>To function correctly, this application requires specific permissions:</p>
+            <ul>
+                <li><strong>Location (ACCESS_FINE_LOCATION):</strong> Required by Android to scan for nearby WiFi
+                    devices (your smart lamps) during the setup process. Location data is processed instantly on-device
+                    and is never recorded or shared.</li>
+                <li><strong>Network (CHANGE_WIFI_STATE):</strong> Required to connect your phone to the lamp's temporary
+                    WiFi network for provisioning.</li>
+                <li><strong>Notifications:</strong> Used solely for local alerts (e.g., timer completion).</li>
+            </ul>
+            <h2>4. Device Communication</h2>
+            <p>The app communicates directly with your smart lamps over your local WiFi network using standard HTTP
+                protocols. No traffic is routed through cloud servers.</p>
+            <h2>5. Third-Party Services</h2>
+            <p>This application does not integrate with any third-party analytics, advertising, or tracking services.
+            </p>
+            <h2>6. Your Rights</h2>
+            <p>Since we do not collect your data, you retain full control. You can clear all app data at any time via
+                your Android System Settings, which will remove all saved devices and groups from the app.</p>
+            <h2>7. Error Reporting</h2>
+            <p>You can choose to send anonymous error reports to help us improve stability. These reports include
+                technical data (device model, system version, error trace) but NEVER personal data like your name,
+                location, or content.</p>
+            <div class="highlight">
+                <strong>Your Privacy Matters:</strong> UR Home is designed with privacy-first principles. Your smart
+                home data belongs to you and stays with you.
+            </div>
+        </div>
+        <!-- POLISH VERSION -->
+        <div id="content-pl" class="content">
+            <h1>Polityka Prywatności</h1>
+            <p class="last-updated">Ostatnia aktualizacja: Styczeń 2026</p>
+            <h2>1. Wstęp</h2>
+            <p>UR Home ("my", "nasze", lub "nas") działa jako lokalna aplikacja do sterowania inteligentnym domem.
+                Szanujemy Twoją prywatność i jesteśmy zobowiązani do jej ochrony.</p>
+            <div class="highlight">
+                <strong>Kluczowa informacja:</strong> UR Home NIE gromadzi, nie przechowuje ani nie przesyła żadnych
+                danych osobowych na zewnętrzne serwery. Wszystko pozostaje na Twoim urządzeniu.
+            </div>
+            <h2>2. Gromadzenie Danych</h2>
+            <p>NIE gromadzimy, nie przechowujemy ani nie przesyłamy żadnych danych osobowych na zewnętrzne serwery ani
+                do stron trzecich. Wszystkie dane operacyjne (nazwy urządzeń, grup, ustawienia) są przechowywane
+                lokalnie na Twoim urządzeniu, przy użyciu SharedPreferences i baz danych SQLite.</p>
+            <h2>3. Wykorzystanie Uprawnień</h2>
+            <p>Aby działać poprawnie, aplikacja wymaga określonych uprawnień:</p>
+            <ul>
+                <li><strong>Lokalizacja (ACCESS_FINE_LOCATION):</strong> Wymagane przez Androida do skanowania w
+                    poszukiwaniu urządzeń WiFi w pobliżu (Twoje inteligentne lampki) podczas procesu konfiguracji. Dane
+                    lokalizacji są przetwarzane natychmiastowo na urządzeniu i nigdy nie są rejestrowane ani
+                    udostępniane.</li>
+                <li><strong>Sieć (CHANGE_WIFI_STATE):</strong> Wymagane do połączenia telefonu z tymczasową siecią WiFi
+                    lampki w celu konfiguracji.</li>
+                <li><strong>Powiadomienia:</strong> Używane wyłącznie do lokalnych alertów (np. zakończenie odliczania
+                    timera).</li>
+            </ul>
+            <h2>4. Komunikacja Urządzeń</h2>
+            <p>Aplikacja komunikuje się bezpośrednio z Twoimi inteligentnymi lampkami przez Twoją lokalną sieć WiFi,
+                używając standardowych protokołów HTTP. Żaden ruch nie jest kierowany przez serwery w chmurze.</p>
+            <h2>5. Usługi Zewnętrzne</h2>
+            <p>Ta aplikacja nie integruje się z żadnymi usługami analitycznymi, reklamowymi ani śledzącymi stron
+                trzecich.</p>
+            <h2>6. Twoje Prawa</h2>
+            <p>Ponieważ nie zbieramy Twoich danych, zachowujesz pełną kontrolę. Możesz w każdej chwili wyczyścić
+                wszystkie dane aplikacji w Ustawieniach Systemowych Androida, co usunie wszystkie zapisane urządzenia i
+                grupy z aplikacji.</p>
+            <h2>7. Raportowanie Błędów</h2>
+            <p>Możesz zdecydować się na wysyłanie anonimowych raportów o błędach. Raporty zawierają dane techniczne
+                (model, wersja systemu, błąd), ale NIGDY dane osobowe, takie jak imię, lokalizacja czy treści.</p>
+            <div class="highlight">
+                <strong>Twoja prywatność ma znaczenie:</strong> UR Home został zaprojektowany z myślą o prywatności.
+                Twoje dane inteligentnego domu należą do Ciebie i pozostają z Tobą.
+            </div>
+        </div>
+        <!-- CHINESE VERSION -->
+        <div id="content-zh" class="content">
+            <h1>隐私政策</h1>
+            <p class="last-updated">最后更新：2026年1月</p>
+            <h2>1. 简介</h2>
+            <p>UR Home（"我们"、"我们的"）作为严格的本地智能家居控制应用程序运行。我们尊重您的隐私并致力于保护它。</p>
+            <div class="highlight">
+                <strong>关键点：</strong>UR Home 不会收集、存储或传输任何个人数据到外部服务器。一切都保留在您的设备上。
+            </div>
+            <h2>2. 数据收集</h2>
+            <p>我们不会收集、存储或传输任何个人数据到外部服务器或第三方。所有操作数据（设备名称、组、设置）都使用 Android 的 SharedPreferences 和 SQLite 数据库本地存储在您的设备上。</p>
+            <h2>3. 权限使用</h2>
+            <p>为了正常运行，此应用程序需要特定权限：</p>
+            <ul>
+                <li><strong>位置 (ACCESS_FINE_LOCATION)：</strong>Android 要求在设置过程中扫描附近的 WiFi
+                    设备（您的智能灯）。位置数据在设备上即时处理，从不记录或共享。</li>
+                <li><strong>网络 (CHANGE_WIFI_STATE)：</strong>需要将手机连接到灯的临时 WiFi 网络以进行配置。</li>
+                <li><strong>通知：</strong>仅用于本地警报（例如计时器完成）。</li>
+            </ul>
+            <h2>4. 设备通信</h2>
+            <p>该应用程序使用标准 HTTP 协议通过您的本地 WiFi 网络直接与您的智能灯通信。没有流量通过云服务器路由。</p>
+            <h2>5. 第三方服务</h2>
+            <p>此应用程序不与任何第三方分析、广告或跟踪服务集成。</p>
+            <h2>6. 您的权利</h2>
+            <p>由于我们不收集您的数据，您保留完全控制权。您可以随时通过 Android 系统设置清除所有应用数据，这将从应用中删除所有保存的设备和组。</p>
+            <h2>7. 错误报告</h2>
+            <p>您可以选择发送匿名错误报告以帮助我们提高稳定性。这些报告包括技术数据（设备型号、系统版本、错误跟踪），但绝不包括您的姓名、位置或内容等个人数据。</p>
+            <div class="highlight">
+                <strong>您的隐私很重要：</strong>UR Home 采用隐私优先原则设计。您的智能家居数据属于您并与您同在。
+            </div>
+        </div>
+        <footer>
+            <p>© 2026 UR Home Project</p>
+            <p>Made with ❤️ for smart homes</p>
+        </footer>
+    </div>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById('content-' + lang).classList.add('active');
+            event.target.classList.add('active');
+            document.documentElement.lang = lang;
+        }
+        window.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage;
+            if (userLang.startsWith('pl')) {
+                document.getElementById('content-en').classList.remove('active');
+                document.getElementById('content-pl').classList.add('active');
+                document.querySelectorAll('.lang-btn')[0].classList.remove('active');
+                document.querySelectorAll('.lang-btn')[1].classList.add('active');
+            } else if (userLang.startsWith('zh')) {
+                document.getElementById('content-en').classList.remove('active');
+                document.getElementById('content-zh').classList.add('active');
+                document.querySelectorAll('.lang-btn')[0].classList.remove('active');
+                document.querySelectorAll('.lang-btn')[2].classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
